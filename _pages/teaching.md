@@ -14,6 +14,6 @@ course 25-26: `labour economics`: 4th year bachelor's degree in economics. unive
 
 for students: materials are available in [studium](https://studium25.usal.es/). for doubts drop me an email.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+#{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
-{% include courses.liquid %}
+#{% include courses.liquid %}
