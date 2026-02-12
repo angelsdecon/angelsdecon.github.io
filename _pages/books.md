@@ -1,5 +1,5 @@
 ---
-layout: hobbies
+layout: books
 title: hobbies
 permalink: /books/
 nav: false
