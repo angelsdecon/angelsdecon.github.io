@@ -2,13 +2,17 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: courses i've proudly been part of.
 nav: true
 nav_order: 6
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+`macroeconomis i`: 2nd year bachelor's degree in economics. university of salamanca, spain. course 25-26.
+
+`labour economics`: 4th year bachelor's degree in economics. university of salamanca, spain. course 25-26.
+
+for students: materials are available in [studium](https://studium25.usal.es/). for doubts drop me an email.
 
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
