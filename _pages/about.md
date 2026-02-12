@@ -11,8 +11,7 @@ profile:
   more_info: >
     department of economcis and economic history 
     <p>Office 214</p>
-    <p>123 your address street</p>
-    FES Buildnig - ‘Miguel de Unamuno’ Campus
+    FES Building - ‘Miguel de Unamuno’ Campus
     <p>salamanca, spain 37007</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
