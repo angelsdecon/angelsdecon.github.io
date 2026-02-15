@@ -3,7 +3,7 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/CV_angel.pdf # path to your CV PDF file
 email: angelsd1998@usal.es # your email address
-twitter: Angel_SnchzDnl
+x_username: Angel_SnchzDnl
 linkedin: angelsanchezdaniel
 #inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon
@@ -18,5 +18,25 @@ custom_social: # can be any name here other than the ones already defined in the
   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
   title: substack
   url: https://www.alberteinstein.com/
+substack: 
+  title: Substack
+  url: https://litoangel.substack.com
+  icon: fas fa-bookmark
+letterboxd_id:
+  value: your_letterboxd_username # the actual username or ID value
+  logo: fa-brands fa-letterboxd # override with custom icon class  
 
-  
+# Built-in Social Platforms
+# The plugin includes built-in support for 53 social media and academic platforms:
+
+# Academic & Research Platforms
+# academia_edu, acm_id, arxiv_id, dblp_url, hal_id, ieee_id, inspirehep_id, lattes_id, orcid_id, osf_id, publons_id, research_gate_profile, scholar_userid, scopus_id, semanticscholar_id
+
+# Social Media Platforms
+# blogger_url, bluesky_url, discord_id, facebook_id, flickr_id, instagram_id, mastodon_username, medium_username, pinterest_id, quora_username, reddit_username, spotify_id, telegram_username, tiktok_username, tumblr_username, twitch_username, x_username, youtube_id
+
+# Professional & Networking
+# github_username, gitlab_username, keybase_username, kaggle_id, lastfm_id, letterboxd_id, linkedin_username, stackoverflow_id, strava_userid, unsplash_id, wikidata_id, wikipedia_id, zotero_username
+
+# Contact & Other
+# cv_pdf, email, rss_icon, wechat_username, whatsapp_number, work_url
