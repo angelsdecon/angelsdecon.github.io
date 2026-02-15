@@ -28,9 +28,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-hi guys this is my biography! 
+hi guys! i'm ángel!
 
-interests: `labour`, `policy`
+based in salamanca (for now). first gen graduate. phd econ student. may interests are `labour`, `policy`, `causal inference` and many more, my problem time is contrained to 24 hours a day.
+
+my phd explores ageing and policy evaluation. mental health, inheritances, social contacts... a bunch of topics explored trough impact evaluation glasses and quasi-experimental techniques. if you are courious, go to cv to know a little bit more, there are some interesting working papers in the kitchen.
+
+i'm a stata-guy for econometrics stuff and r-guy for data visualization in r. python is on my whishlist for this year to learn. updated to lall the new AI stuff, i believe critical thinking will be crucial, altough i hope claude code does not replace my job.
+
+additionally, i teach a couple of courses economics undergraduates and for now i'm loving it. students really boost me to be updated in lots of topics.
 
 I am also on [substack](https://substack.com/@litoangel)
 
