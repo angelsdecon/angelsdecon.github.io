@@ -12,21 +12,21 @@ email: angelsd1998@usal.es # your email address
 # rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: substack
-  url: https://www.alberteinstein.com/
-substack: 
-  title: Substack
-  url: https://litoangel.substack.com
-  icon: fas fa-bookmark
-letterboxd_id:
-  value: your_letterboxd_username # the actual username or ID value
-  logo: fa-brands fa-letterboxd # override with custom icon class  
+#custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#  title: Custom Social
+#  url: https://www.alberteinstein.com/
+#custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#  title: substack
+#  url: https://www.alberteinstein.com/
+#substack: 
+#  title: Substack
+#  url: https://litoangel.substack.com
+#  icon: fas fa-bookmark
+#letterboxd_id:
+#  value: your_letterboxd_username # the actual username or ID value
+#  logo: fa-brands fa-letterboxd # override with custom icon class  
 
 # Included:
 # orcid_id, x_username, github_username, linkedin_username, cv_pdf, email
