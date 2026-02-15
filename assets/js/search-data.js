@@ -72,7 +72,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-welcome",
-          title: 'Welcome!',
+          title: 'welcome!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
