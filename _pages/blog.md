@@ -195,6 +195,10 @@ pagination:
 
 </div>
 
+---
+
+outside academia...
+
 > los nadie, los hijos de nadie, los dueños de nada.
 >
 > -- eduardo galeano
