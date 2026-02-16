@@ -15,6 +15,8 @@ what i've published so far and what i'm working on!
 ---
 ## work in progress...
 
+<div class="publications">
+
 The intra-household effects of inheritances on time allocation by gender
 
 You've got a friend in me: social capital and subjective life expectancy
