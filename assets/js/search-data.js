@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-teaching",
+  },{id: "nav-curriculum-vitae",
+          title: "curriculum vitae",
+          description: "what i&#39;ve been doing so far! i&#39;d love to do so many more things!",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "nav-teaching",
           title: "teaching",
           description: "courses i&#39;ve proudly been part of.",
           section: "Navigation",
@@ -36,13 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/books/";
-          },
-        },{id: "nav-curriculum-vitae",
-          title: "curriculum vitae",
-          description: "what i&#39;ve been doing so far! i&#39;d love to do so many more things!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "post-tomarse-un-par-de-gin-tonics-puede-aumentar-el-poder-sindical-en-la-negociación-colectiva",
         
