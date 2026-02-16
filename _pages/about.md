@@ -38,6 +38,3 @@ i'm a stata-guy for `econometrics` stuff and an r-guy for `data visualization`. 
 
 additionally, i teach a couple of courses to economics undergraduates and, so far, i'm loving it. students really push me to stay updated on lots of topics.
 
-I am also on [substack](https://substack.com/@litoangel)
-
-
