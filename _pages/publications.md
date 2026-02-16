@@ -7,13 +7,12 @@ nav: true
 nav_order: 1
 ---
 
-#<!-- _pages/publications.md -->
-
-#<!-- Bibsearch Feature -->
-
-#{% include bib_search.liquid %}
-
---- 
+<!-- _pages/publications.md -->
+<!-- Bibsearch Feature -->
+{% comment %}
+{% include bib_search.liquid %}
+{% endcomment %}
+---
 ## work in progress...
 
 blablabla
