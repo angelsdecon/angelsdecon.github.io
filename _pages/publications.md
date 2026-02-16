@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 3
 ---
+what i've published so far and what i'm working on!
 
 <!-- _pages/publications.md -->
 <!-- Bibsearch Feature -->
