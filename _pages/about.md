@@ -9,9 +9,10 @@ profile:
   image: angel.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    department of economcis and economic history<br> 
+    dept. of economcis and economic history<br> 
     <p>office 214</p><br>
-    fes building - ‘miguel de unamuno’ campus<br>
+    fes building<br>
+    ‘miguel de unamuno’ campus<br>
     <p>salamanca, spain 37007</p><br>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -28,13 +29,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-hi guys! i'm ángel!
+hi guys! i'm ángel!👋
 
-based in salamanca (for now). first gen graduate and phd econ student. my interests are `labour`, `policy`, `causal inference` and many more, my main problem is that days are constrained to 24 hours!
+📍 based in salamanca (for now). first gen graduate and phd econ student 🎓. my interests are `labour`, `policy`, `causal inference` and many more, my main problem is that days are constrained to 24 hours! ☕
 
-my phd explores `ageing` and `policy evaluation`. mental health, inheritances, social contacts... a bunch of topics through `impact evaluation` glasses and `quasi-experimental` techniques. if you are curious, go to cv to know a little bit more, there are some interesting working papers in the kitchen.
+🔍 my phd explores `ageing` and policy `evaluation`. mental health, inheritances, social contacts... a bunch of topics through `impact evaluation` glasses and `quasi-experimental` techniques 🧠. if you are curious, go to cv to know a little bit more, there are some interesting working papers in the kitchen 👨‍🍳.
 
-i'm a stata-guy for `econometrics` stuff and an r-guy for `data visualization`. python is on my wishlist to learn this year. i keep up with all the new ai tools, i believe critical thinking will be more crucial than ever, although i hope claude code does not replace my job.
+💻 i'm a stata-guy for `econometrics` stuff and an r-guy for `data visualization` 📈. python is on my wishlist to learn this year. i keep up with all the new ai tools, i believe critical thinking will be more crucial than ever, although i hope claude code does not replace my job.
 
-additionally, i teach a couple of courses to economics undergraduates and, so far, i'm loving it. students really push me to stay updated on lots of topics.
+👨‍🏫 additionally, i teach a couple of courses to economics undergraduates and, so far, i'm loving it. students really push me to stay updated on lots of topics 📊.
 
