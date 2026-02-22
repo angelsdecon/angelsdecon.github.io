@@ -168,24 +168,26 @@ pagination:
 
 </div>
 
----
+<hr>
 
-outside academia...
+<div class="mt-5">
+  <h4 class="mb-4 text-lowercase">outside academia...</h4>
+  
+  <blockquote class="blockquote mb-4">
+    <p>los nadie, los hijos de nadie, los dueños de nada.</p>
+    <footer class="blockquote-footer">eduardo galeano</footer>
+  </blockquote>
 
-> los nadie, los hijos de nadie, los dueños de nada.
->
-> -- eduardo galeano
+  <blockquote class="blockquote mb-5">
+    <p>yo amo como aman los pobres, y me temo, que durante mucho, mucho tiempo esto seguirá siendo así.</p>
+    <footer class="blockquote-footer">gata cattana</footer>
+  </blockquote>
 
-> yo amo como aman los pobres, y me temo, que durante mucho, mucho tiempo esto seguirá siendo así.
->
-> -- gata cattana
+  <p>you can find books that i am reading, have read, or will read on <a href="https://www.goodreads.com/user/show/143207524" target="_blank">goodreads</a>.</p>
 
-you can find books that i am reading, have read, or will read on [goodreads](https://www.goodreads.com/user/show/143207524)
+  <p>you can find films that i am watching, have watched, or will watch on <a href="https://boxd.it/b5MNP" target="_blank">letterbox</a>.</p>
 
-you can find films that i am watching, have watched, or will watch on [letterbox](https://boxd.it/b5MNP)
+  <p>you can find music i listen to during long coding sessions to not kill myself on <a href="https://open.spotify.com/user/1193392732?si=eH7rJxXdQNKntGCt1lRFsA" target="_blank">spotify</a>. recommendations are more than welcome!</p>
 
-you can find music i listen to during long coding sessions to not kill myself on [spotify](https://open.spotify.com/user/1193392732?si=eH7rJxXdQNKntGCt1lRFsA) 
-
-recommendations are more than welcome!
-
-check mate me!! [chess.com]
+  <p>check mate me!! <a href="https://www.chess.com" target="_blank">chess.com</a></p>
+</div>
