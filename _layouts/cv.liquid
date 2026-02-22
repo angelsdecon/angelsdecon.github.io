@@ -60,20 +60,20 @@ layout: default
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
-        <!-- Header/Contact Information -->
+        <!-- Header/contact information -->
         {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
             <table class="table table-cv table-sm table-borderless">
               {% if cv.name %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>name</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
                 </tr>
               {% endif %}
               {% if cv.label %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>professional title</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
                 </tr>
               {% endif %}
@@ -115,7 +115,7 @@ layout: default
         <!-- Summary -->
         {% if cv.summary %}
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Professional Summary</h3>
+            <h3 class="card-title font-weight-medium">professional summary</h3>
             <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           </div>
         {% endif %}
@@ -129,7 +129,7 @@ layout: default
         {% if combined_experience.size > 0 %}
           <a class="anchor" id="experience"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
+            <h3 class="card-title font-weight-medium">experience</h3>
             <div>
               {% assign entries = combined_experience %}
               {% include cv/experience.liquid %}
@@ -151,7 +151,7 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
-              {% if section_title == 'Education' %}
+              {% if section_title == 'education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
@@ -219,7 +219,7 @@ layout: default
               {% endif %}
               {% if basics.email %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>email</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ basics.email }}</td>
                 </tr>
               {% endif %}
@@ -231,7 +231,7 @@ layout: default
               {% endif %}
               {% if basics.location %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>location</b></td>
                   <td class="p-1 pl-2 font-weight-light">
                     {% if basics.location.address %}{{ basics.location.address }}, {% endif %}
                     {% if basics.location.city %}{{ basics.location.city }}, {% endif %}
@@ -280,7 +280,7 @@ layout: default
         {% if site.data.resume.education.size > 0 %}
           <a class="anchor" id="education"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Education</h3>
+            <h3 class="card-title font-weight-medium">education</h3>
             <div>
               {% assign entries = site.data.resume.education %}
               {% include cv/education.liquid %}
@@ -304,7 +304,7 @@ layout: default
         {% if site.data.resume.publications.size > 0 %}
           <a class="anchor" id="publications"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Publications</h3>
+            <h3 class="card-title font-weight-medium">publications</h3>
             <div>
               {% assign entries = site.data.resume.publications %}
               {% include cv/publications.liquid %}
@@ -316,7 +316,7 @@ layout: default
         {% if site.data.resume.skills.size > 0 %}
           <a class="anchor" id="skills"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Skills</h3>
+            <h3 class="card-title font-weight-medium">skills</h3>
             <div>
               {% assign entries = site.data.resume.skills %}
               {% include cv/skills.liquid %}
@@ -328,7 +328,7 @@ layout: default
         {% if site.data.resume.languages.size > 0 %}
           <a class="anchor" id="languages"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Languages</h3>
+            <h3 class="card-title font-weight-medium">languages</h3>
             <div>
               {% assign entries = site.data.resume.languages %}
               {% include cv/languages.liquid %}
@@ -340,7 +340,7 @@ layout: default
         {% if site.data.resume.interests.size > 0 %}
           <a class="anchor" id="interests"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Interests</h3>
+            <h3 class="card-title font-weight-medium">interests</h3>
             <div>
               {% assign entries = site.data.resume.interests %}
               {% include cv/interests.liquid %}
@@ -352,7 +352,7 @@ layout: default
         {% if site.data.resume.certificates.size > 0 %}
           <a class="anchor" id="certificates"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Certificates</h3>
+            <h3 class="card-title font-weight-medium">certificates</h3>
             <div>
               {% assign entries = site.data.resume.certificates %}
               {% include cv/certificates.liquid %}
