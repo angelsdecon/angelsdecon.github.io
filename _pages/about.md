@@ -8,12 +8,12 @@ profile:
   align: right
   image: angel.png
   image_circular: false # crops the image to make it circular
-more_info: >
-    dept. of economics & economic history<br>
+  more_info: >
+    dept. economcis & economic history<br> 
     office 214<br>
     fes building<br>
-    'miguel de unamuno' campus<br>
-    salamanca, spain 37007
+    ‘miguel de unamuno’ campus<br>
+    salamanca, spain 37007<br>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<div style="text-align: justify;">
+<div style="text-align: justify;" markdown="1">
 hi guys! i'm ángel!👋
 
 📍 based in salamanca (for now). first gen graduate and phd econ student 🎓. my interests are `labour`, `policy`, `causal inference` and many more, my main problem is that days are constrained to 24 hours! ☕
