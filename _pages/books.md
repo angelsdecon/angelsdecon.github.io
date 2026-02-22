@@ -2,7 +2,7 @@
 layout: default
 permalink: /misc2/
 title: misc2
-nav: true
+nav: false
 nav_order: 5
 pagination:
   enabled: true
