@@ -60,7 +60,7 @@ layout: default
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
-        <!-- Header/contact information -->
+        <!-- header/contact information -->
         {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">contact information</h3>
@@ -79,19 +79,19 @@ layout: default
               {% endif %}
               {% if cv.email %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>email</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
                 </tr>
               {% endif %}
               {% if cv.phone %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Phone</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>phone</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ cv.phone }}</td>
                 </tr>
               {% endif %}
               {% if cv.address %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>location</b></td>
                   <td class="p-1 pl-2 font-weight-light">
                     {% if cv.address.street %}{{ cv.address.street }}, {% endif %}
                     {% if cv.address.city %}{{ cv.address.city }}, {% endif %}
@@ -102,7 +102,7 @@ layout: default
               {% endif %}
               {% if cv.website %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
+                  <td class="p-1 pr-2 font-weight-bold"><b>website</b></td>
                   <td class="p-1 pl-2 font-weight-light">
                     <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
                   </td>
@@ -143,7 +143,7 @@ layout: default
           {% assign section_entries = section_pair[1] %}
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
-          {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+          {% if section_title == 'experience' or section_title == 'volunteer' %}
             {% continue %}
           {% endif %}
 
@@ -252,7 +252,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Summary -->
+        <!-- summary -->
         {% if site.data.resume.basics.summary %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">professional summary</h3>
@@ -276,7 +276,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Education -->
+        <!-- education -->
         {% if site.data.resume.education.size > 0 %}
           <a class="anchor" id="education"></a>
           <div class="card mt-3 p-3">
@@ -288,7 +288,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Awards -->
+        <!-- awards -->
         {% if site.data.resume.awards.size > 0 %}
           <a class="anchor" id="awards"></a>
           <div class="card mt-3 p-3">
@@ -300,7 +300,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Publications -->
+        <!-- publications -->
         {% if site.data.resume.publications.size > 0 %}
           <a class="anchor" id="publications"></a>
           <div class="card mt-3 p-3">
@@ -312,7 +312,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Skills -->
+        <!-- skills -->
         {% if site.data.resume.skills.size > 0 %}
           <a class="anchor" id="skills"></a>
           <div class="card mt-3 p-3">
@@ -336,7 +336,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Interests -->
+        <!-- interests -->
         {% if site.data.resume.interests.size > 0 %}
           <a class="anchor" id="interests"></a>
           <div class="card mt-3 p-3">
@@ -348,7 +348,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Certificates -->
+        <!-- certificates -->
         {% if site.data.resume.certificates.size > 0 %}
           <a class="anchor" id="certificates"></a>
           <div class="card mt-3 p-3">
@@ -360,7 +360,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- Projects -->
+        <!-- projects -->
         {% if site.data.resume.projects.size > 0 %}
           <a class="anchor" id="projects"></a>
           <div class="card mt-3 p-3">
@@ -372,7 +372,7 @@ layout: default
           </div>
         {% endif %}
 
-        <!-- References -->
+        <!-- references -->
         {% if site.data.resume.references.size > 0 %}
           <a class="anchor" id="references"></a>
           <div class="card mt-3 p-3">
