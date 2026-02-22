@@ -37,12 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-hobbies",
-          title: "hobbies",
+        },{id: "nav-misc",
+          title: "misc",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/blog/";
           },
         },{id: "post-tomarse-un-par-de-gin-tonics-puede-aumentar-el-poder-sindical-en-la-negociación-colectiva",
         
