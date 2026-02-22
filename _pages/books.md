@@ -56,7 +56,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read   ·  
+                      {{ read_time }} min read &middot; 
                       <a href="{{ year | prepend: '/blog/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
@@ -107,10 +107,10 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read   ·  
+        {{ read_time }} min read &middot; 
         {{ post.date | date: '%B %d, %Y' }}
         {% if post.external_source %}
-          ·   {{ post.external_source }}
+          &middot; {{ post.external_source }}
         {% endif %}
       </p>
       <p class="post-tags">
