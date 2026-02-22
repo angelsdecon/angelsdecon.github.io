@@ -151,7 +151,7 @@ layout: default
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>
-              {% if section_title == 'education' %}
+              {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
               {% elsif section_title == 'awards' or section_title == 'honors and awards' %}
