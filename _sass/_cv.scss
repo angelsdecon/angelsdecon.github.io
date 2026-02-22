@@ -221,12 +221,15 @@ ul.timeline li::before {
 
 
 /*****************************
- * mis ajustes (forzar minúsculas)
+ * mis ajustes (forzar minúsculas en cajas y menú lateral)
  *****************************/
 .cv h2, 
 .cv h3, 
 .cv .card-title,
 .cv .title,
-td.list-group-category {
+td.list-group-category,
+.cv .toc a,
+.cv nav a,
+.cv .nav-link {
     text-transform: lowercase !important;
 }
