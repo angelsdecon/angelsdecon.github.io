@@ -233,3 +233,9 @@ td.list-group-category,
 .cv-toc .nav-link {
   text-transform: lowercase !important;
 }
+
+/* forzar minusculas menu lateral */
+nav[data-toggle="toc"] .nav-link,
+.toc .nav-link {
+  text-transform: lowercase !important;
+}
