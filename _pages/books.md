@@ -28,32 +28,6 @@ pagination:
   </div>
 {% endif %}
 
-{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
-  <div class="tag-category-list">
-    <ul class="p-0 m-0">
-      {% for tag in site.display_tags %}
-        <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>•</p>
-        {% endunless %}
-      {% endfor %}
-      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>•</p>
-      {% endif %}
-      {% for category in site.display_categories %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>•</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </div>
-{% endif %}
-
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
@@ -144,29 +118,7 @@ pagination:
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | relative_url }}">
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
-
-          {% if tags != "" %}
-            ·  
-            {% for tag in post.tags %}
-            <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
-              <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-              {% unless forloop.last %}
-                 
-              {% endunless %}
-              {% endfor %}
-          {% endif %}
-
-          {% if categories != "" %}
-            ·  
-            {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
-              {% unless forloop.last %}
-                 
-              {% endunless %}
-              {% endfor %}
-          {% endif %}
-    </p>
+      </p>
 
 {% if post.thumbnail %}
 </div>
@@ -187,24 +139,27 @@ pagination:
 
 <hr>
 
-<div class="post mt-5" markdown="1">
+<div class="mt-5">
+  <h4 class="mb-4">outside academia...</h4>
+  
+  <blockquote class="blockquote mb-4">
+    <p>los nadie, los hijos de nadie, los dueños de nada.</p>
+    <footer class="blockquote-footer">eduardo galeano</footer>
+  </blockquote>
 
-### outside academia...
+  <blockquote class="blockquote mb-5">
+    <p>yo amo como aman los pobres, y me temo, que durante mucho, mucho tiempo esto seguirá siendo así.</p>
+    <footer class="blockquote-footer">gata cattana</footer>
+  </blockquote>
 
-> los nadie, los hijos de nadie, los dueños de nada.
->
-> -- eduardo galeano
+  <p>you can find books that i am reading, have read, or will read on <a href="https://www.goodreads.com/user/show/143207524" target="_blank">goodreads</a>.</p>
 
-> yo amo como aman los pobres, y me temo, que durante mucho, mucho tiempo esto seguirá siendo así.
->
-> -- gata cattana
+  <p>you can find films that i am watching, have watched, or will watch on <a href="https://boxd.it/b5MNP" target="_blank">letterbox</a>.</p>
 
-you can find books that i am reading, have read, or will read on [goodreads](https://www.goodreads.com/user/show/143207524)
+  <p>you can find music i listen to during long coding sessions to not kill myself on <a href="https://open.spotify.com/user/1193392732?si=eH7rJxXdQNKnTGCt1lRFsA" target="_blank">spotify</a>. recommendations are more than welcome!</p>
 
-you can find films that i am watching, have watched, or will watch on [letterbox](https://boxd.it/b5MNP)
-
-you can find music i listen to during long coding sessions to not kill myself on [spotify](https://open.spotify.com/user/1193392732?si=eH7rJxXdQNKntGCt1lRFsA) 
-
+  <p>check mate me!! <a href="https://www.chess.com" target="_blank">chess.com</a></p>
+</div>
 recommendations are more than welcome!
 
 check mate me!! [chess.com]
