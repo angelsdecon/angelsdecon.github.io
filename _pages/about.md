@@ -9,7 +9,7 @@ profile:
   image: angel.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    dept. economcis & economic history<br> 
+    dept. economcis & econ. history<br> 
     office 214<br>
     fes building<br>
     ‘miguel de unamuno’ campus<br>
