@@ -10,10 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <span style="font-size: 0.85rem;">dept. of economics & econ. history</span><br>
-    office 214<br>
-    fes building<br>
-    ‘miguel de unamuno’ campus<br>
-    salamanca, spain 37007<br>
+    <span style="font-size: 0.85rem;">fes building, office 214</span><br>
+    <span style="font-size: 0.85rem;">‘miguel de unamuno’ campus</span><br>
+    <span style="font-size: 0.85rem;">salamanca, spain 37007</span><br>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
