@@ -56,7 +56,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read   ·  
+                      {{ read_time }} min read   ·  
                       <a href="{{ year | prepend: '/blog/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
@@ -87,8 +87,6 @@ pagination:
       {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
 
     <li>
 {% if post.thumbnail %}
@@ -109,10 +107,10 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read   ·  
+        {{ read_time }} min read   ·  
         {{ post.date | date: '%B %d, %Y' }}
         {% if post.external_source %}
-          ·   {{ post.external_source }}
+          ·   {{ post.external_source }}
         {% endif %}
       </p>
       <p class="post-tags">
@@ -140,7 +138,7 @@ pagination:
 <hr>
 
 <div class="mt-5">
-  <h4 class="mb-4">outside academia...</h4>
+  <h4 class="mb-4 text-lowercase">outside academia...</h4>
   
   <blockquote class="blockquote mb-4">
     <p>los nadie, los hijos de nadie, los dueños de nada.</p>
@@ -159,9 +157,4 @@ pagination:
   <p>you can find music i listen to during long coding sessions to not kill myself on <a href="https://open.spotify.com/user/1193392732?si=eH7rJxXdQNKnTGCt1lRFsA" target="_blank">spotify</a>. recommendations are more than welcome!</p>
 
   <p>check mate me!! <a href="https://www.chess.com" target="_blank">chess.com</a></p>
-</div>
-recommendations are more than welcome!
-
-check mate me!! [chess.com]
-
 </div>
