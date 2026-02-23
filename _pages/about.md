@@ -31,7 +31,7 @@ latest_posts:
 <div style="text-align: justify;" markdown="1">
 hi guys! i'm ángel!👋
 
-📍 based in salamanca (for now). first gen graduate and phd econ student 🎓. my interests are `ageing`, `labour`, `policy evaluation`, `causal inference` and many more, my main problem is that days are constrained to 24 hours! ☕
+📍 based in salamanca (for now). first gen graduate and phd econ student 🎓. my interests are `ageing`, `labour`, `policy evaluation` and many more, my main problem is that days are constrained to 24 hours! ☕
 
 🔍 my phd on `applied microeconomics` explores `ageing`: mental health, gender, inheritances, social contacts... a bunch of topics through `causal inference` glasses and `quasi-experimental` techniques 🧠. if you are curious, go to cv to know a little bit more, there are some interesting working papers in the kitchen 👨‍🍳.
 
