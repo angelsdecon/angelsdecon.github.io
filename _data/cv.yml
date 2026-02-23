@@ -1,10 +1,10 @@
 cv:
   name: ángel sánchez-daniel
-  label: ph.d. student in economics
+  label: predoctoral researcher
   email: angelsd1998@usal.es
   location: salamanca, spain
   image: ""
-  summary: "ph.d. student in economics specializing in labour economics, causal inference, and policy evaluation. passionate about using quasi-experimental methods to answer real-world questions."
+  summary: "predoctoral researcher in economics specializing in causal inference, and policy evaluation. ageing, gender, wealth transfers, social contacts trough quasi-experimental methods."
 
   social_networks:
     - network: twitter
@@ -15,44 +15,46 @@ cv:
       username: angelsanchezdaniel
 
   address:
-    street: "edificio fes, campus 'miguel de unamuno'"
+    street: "fes building, 'miguel de unamuno' campus"
     city: salamanca
-    region: cyl
-    postalCode: "37007"
+    region: spain
+    postalCode:
     countryCode: spain
 
   sections:
     Education:
-      - institution: universidad de salamanca
+      - institution: university of salamanca
         location: salamanca, spain
-        area: "economics - title: 'essays on ageing economics'"
-        studyType: ph.d.
+        area: "title: 'essays on ageing economics'"
+        studyType: phd in economics
         start_date: 2022-09
         end_date: present
         score: ""
-        courses: "supervisor: miguel ángel malo ocaña."
+        courses: "supervisor: miguel á. malo"
         highlights:
-          - "topic: causal inference, applied econometrics, health economics."
+          - "topic: ageing, health, gender, wealth, social contacts"
+          - "metods: causal inference (matching), applied econometrics (fixed effects)"
 
-      - institution: universitat de barcelona, autònoma de barcelona, & de girona
+      - institution: university of barcelona, autonomouos of de barcelona, & of girona
         location: barcelona, spain
-        area: labour economics
-        studyType: m.s.
+        area:
+        studyType: masters degree in labour economics
         start_date: 2020-09
         end_date: 2021-06
         score: "8.2/10"
         highlights:
-          - "specialized in econometrics and impact evaluation methodologies."
+          - "main courses: impact evaluation, microeconometrics, discrimination"
 
-      - institution: universidad de salamanca
+      - institution: university of salamanca
         location: salamanca, spain
-        area: economics
-        studyType: b.s.
+        area:
+        studyType: bachelors degree in economics
         start_date: 2016-09
         end_date: 2020-06
         score: "8.01/10"
         highlights:
-          - "exchange program in universidad de belgrano, buenos aires, argentina (2019)."
+          - "main courses: macroeconomics, microeconomics, econometrics, labour economics"
+          - "exchange program in university of belgrano, buenos aires, argentina (2019)."
 
     Experience:
       - company: universidad de salamanca
