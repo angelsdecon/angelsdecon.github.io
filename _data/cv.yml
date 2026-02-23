@@ -32,8 +32,8 @@ cv:
         score: ""
         courses: "supervisor: miguel á. malo"
         highlights:
-          - "topic: ageing, health, gender, wealth, social contacts"
-          - "metods: causal inference (matching), applied econometrics (fixed effects)"
+          - "topics: ageing, health, gender, wealth, social contacts"
+          - "methods: causal inference (ps matching), applied econometrics (fixed effects)"
 
       - institution: university of barcelona, autonomouos of de barcelona, & of girona
         location: barcelona, spain
@@ -53,12 +53,12 @@ cv:
         end_date: 2020-06
         score: "8.01/10"
         highlights:
-          - "main courses: macroeconomics, microeconomics, econometrics, labour economics"
+          - "main courses: macroeconomics, econometrics, labour economics"
           - "exchange program in university of belgrano, buenos aires, argentina (2019)."
 
     Experience:
-      - company: universidad de salamanca
-        position: pre-doctoral researcher
+      - company: university de salamanca
+        position: predoctoral researcher
         location: salamanca, spain
         start_date: 2024-10
         end_date: present
@@ -66,31 +66,35 @@ cv:
         highlights:
           - "project: essays on ageing economics."
           - "regional funding, supported by the junta de castilla & león."
+          - "teaching: macroeconomics i, labour economics"
 
-      - company: universidad de salamanca
+      - company: university of salamanca
         position: research assistant
         location: salamanca, spain
         start_date: 2021-11
         end_date: 2024-08
         summary: "department of economics & economic history."
         highlights:
-          - "project irene - integrated socioeconomic and environmental modelling using remote sensing data for the management of unauthorized water abstractions."
-
-      - company: universidad de salamanca
-        position: lecturer / teaching assistant
-        location: salamanca, spain
-        start_date: 2025-09
-        end_date: present
-        summary: "teaching undergraduate courses in economics."
-        highlights:
-          - "macroeconomics i: bachelor's degree in economics, 2nd year."
-          - "labour economics: bachelor's degree in economics, 4th year (fully taught in english)."
+          - "project: irene - integrated socioeconomic and environmental modelling using remote sensing data for the management of unauthorized water abstractions."
 
     Publications:
+
+      - title: "work in progress: the impact of covid-19 lockdown on mental health in the elderly: a nonlinear relationship"
+        authors:
+          - sánchez-daniel, á. and malo, m.á.
+        publisher: working paper (planned submission at social science & medicine)
+        releaseDate: 2025-10-01
+
+      - title: "work in progress: the intra-household effects of inheritances on time allocation by gender"
+        authors:
+          - sánchez-daniel, á. and malo, m.á.
+        publisher: working paper (planned submission at review of economics of the household)
+        releaseDate: 2025-10-02
+    
       - title: "actionable human-water systems modeling under uncertainty"
         authors:
           - gil-garcía, l. et al.
-        publisher: hydrology and earth system sciences (preprint)
+        publisher: hydrology and earth system sciences
         releaseDate: 2024-01-01
         url: "https://doi.org/10.5194/hess-2024-61"
 
@@ -101,28 +105,30 @@ cv:
         releaseDate: 2024-01-02
         url: "https://doi.org/10.1016/j.wre.2024.100252"
 
-      - title: "the impact of covid-19 lockdown on mental health in the elderly: a nonlinear relationship"
+      - title: "masters thesis: The effects of technological change on labor markets: College wage premium in Europe"
         authors:
-          - sánchez-daniel, á. and malo-ocaña, m.a.
-        publisher: working paper (planned submission at social science & medicine)
+          - sánchez-daniel, á.
+        publisher: dipòsit digital ub
         releaseDate: 2025-10-01
+        url: "https://diposit.ub.edu/items/d19f11df-7074-4410-926c-c6ad9a532f7e"
 
-      - title: "the intra-household effects of inheritances on time allocation by gender"
+      - title: "bachelors thesis: economía de la inteligencia artificial: distribución territorial y dinamismo empresarial en españa"
         authors:
-          - sánchez-daniel, á. and malo-ocaña, m.a.
-        publisher: working paper (planned submission at review of economics of the household)
+          - sánchez-daniel, á.
+        publisher: gredos usañ
         releaseDate: 2025-10-02
-
+        url: "https://gredos.usal.es/handle/10366/145274"
+        
     Skills:
-      - name: advanced software
-        level: master
+      - name: advanced
+        level:
         icon: fa-solid fa-code
-        keywords: "stata, r, gams, arcgis, latex, ms office"
+        keywords: "stata, r, latex, ms office, arcgis"
 
-      - name: basic software
-        level: beginner
+      - name: basic
+        level: 
         icon: fa-solid fa-laptop
-        keywords: "matlab, spss, mathematica, eviews, python"
+        keywords: "matlab, spss, mathematica, eviews, python, gams"
 
     Languages:
       - name: spanish
@@ -137,13 +143,13 @@ cv:
         icon: fa-solid fa-magnifying-glass
         keywords: "labour economics, causal inference, policy evaluation, applied microeconomics, health economics"
 
-    Certificates:
-      - name: "sensitivity analysis in ses modeling"
-        date: 2024-07-01
-        issuer: usal-gecos, salamanca
-        icon: fa-solid fa-certificate
-
-      - name: "mathematical programming applications to water management"
-        date: 2024-07-02
-        issuer: usal-gecos, salamanca
-        icon: fa-solid fa-certificate
+#    Certificates:
+#      - name: "sensitivity analysis in ses modeling"
+#        date: 2024-07-01
+#        issuer: usal-gecos, salamanca
+#        icon: fa-solid fa-certificate
+#
+#      - name: "mathematical programming applications to water management"
+#        date: 2024-07-02
+#        issuer: usal-gecos, salamanca
+#        icon: fa-solid fa-certificate
