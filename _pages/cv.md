@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: curriculum vitae
+title: cv
 nav: true
 nav_order: 2
 cv_pdf: /assets/pdf/CV_angel.pdf # you can also use external links here
