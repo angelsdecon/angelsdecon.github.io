@@ -1,6 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign presentations_list = entry[1] | default: data[1] | default: entry %}
-  {% for content in presentations_list %}
+  {% for content in entries %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px">
