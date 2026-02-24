@@ -22,6 +22,9 @@ what i've published so far and what i'm working on!
 
 ## publications
 
+## publications
+
 <div class="publications">
-  {% bibliography -q @*[type!=unpublished] %}
+  {% bibliography -q @*[type != unpublished] %}
 </div>
+
