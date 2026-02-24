@@ -14,13 +14,14 @@ what i've published so far and what i'm working on!
 
 ## work in progress
 
-* **the intra-household effects of inheritances on time allocation by gender**
-* **you've got a friend in me: social capital and subjective life expectancy**
+<div class="publications">
+  {% bibliography -q @unpublished %}
+</div>
 
 ---
 
 ## publications
 
 <div class="publications">
-  {% bibliography %}
+  {% bibliography -q @*[type!=unpublished] %}
 </div>
