@@ -8,8 +8,11 @@ cv_pdf: /assets/pdf/CV_angel.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
 description: what i've been doing so far! i'd love to do so many more things!
 toc: false
-  sidebar: left
 ---
+
+* REMOVED:
+* toc:
+*  sidebar: left
 
 <style>
   /* Forzar minúsculas en los títulos de las cajas del CV */
