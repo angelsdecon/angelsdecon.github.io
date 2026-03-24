@@ -10,9 +10,6 @@ description: what i've been doing so far! i'd love to do so many more things!
 toc: false
 ---
 
-* REMOVED:
-* toc:
-*  sidebar: left
 
 <style>
   /* Forzar minúsculas en los títulos de las cajas del CV */
