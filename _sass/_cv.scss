@@ -239,3 +239,56 @@ nav[data-toggle="toc"] .nav-link,
 .toc .nav-link {
   text-transform: lowercase !important;
 }
+
+/*
+ * 1. REPOSICIONAR: Mover el enlace PDF debajo de la descripción.
+ * 2. ESTILAR: Darle formato de botón centrado con texto.
+ */
+
+/* Contenedor principal del enlace PDF */
+.cv .post-header .cv-pdf {
+  float: none; /* Quitamos el flotado original a la derecha */
+  display: block; /* Ocupa todo el ancho */
+  text-align: center; /* Centra el contenido */
+  margin-top: 30px; /* Separación generosa con la descripción */
+  margin-bottom: -15px; /* Pequeño ajuste con la primera tarjeta */
+}
+
+/* Estilo del enlace (el botón en sí) */
+.cv .post-header .cv-pdf a {
+  display: inline-flex; /* Centra el icono y el texto interior */
+  align-items: center;
+  gap: 12px; /* Separación entre el icono y el texto */
+  padding: 12px 24px; /* Relleno del botón */
+  
+  /* Borde y color de acento (puedes cambiar este azul por otro) */
+  border: 2px solid #0056b3; 
+  border-radius: 6px; /* Bordes redondeados */
+  
+  color: #0056b3; /* Color del texto e icono */
+  text-decoration: none; /* Sin subrayado */
+  font-weight: bold; /* Texto en negrita */
+  transition: all 0.3s ease; /* Animación suave al pasar el ratón */
+  font-size: 1rem;
+}
+
+/* * TRUCO DE MAGIA: Usamos CSS para añadir el texto sin editar HTML
+ */
+.cv .post-header .cv-pdf a::after {
+  content: "Descargar Currículum (PDF)";
+  font-family: var(--global-font-family); /* Usa la fuente de tu web */
+}
+
+/* Efecto al pasar el ratón (hover) */
+.cv .post-header .cv-pdf a:hover {
+  background-color: #0056b3; /* Fondo azul */
+  color: #ffffff; /* Texto blanco */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Pequeña sombra */
+}
+
+/* Asegurar que el icono original no moleste al texto añadido */
+.cv .post-header .cv-pdf a i {
+  font-size: 1.2rem;
+  position: relative;
+  top: 1px;
+}
