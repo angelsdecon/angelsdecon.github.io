@@ -7,7 +7,7 @@ nav_order: 2
 cv_pdf: /assets/pdf/CV_angel.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
 description: what i've been doing so far! i'd love to do so many more things!
-toc:
+toc: false
   sidebar: left
 ---
 
