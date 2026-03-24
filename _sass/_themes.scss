@@ -83,12 +83,20 @@
 
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{v.$grey-color-dark};
+
+  --global-bg-color: #092327;          /* Casi negro (Fondo principal) */
+  --global-text-color: #f1ecce;        /* Beige (Texto principal para que destaque) */
+  --global-text-color-light: #6e8387;  /* Gris (Texto secundario) */
+  --global-theme-color: #f2b7c6;       /* Rosa flojo (Enlaces: brilla perfecto en la oscuridad) */
+  --global-hover-color: #885053;       /* Marrón (Al pasar el ratón) */
+  --global-hover-icon-color: #f2b7c6;  /* Rosa flojo (Iconos al pasar el ratón) */
+  
+  //--global-bg-color: #{v.$grey-color-dark};
   --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  //--global-text-color: #{v.$grey-color-light};
+  //--global-text-color-light: #{v.$grey-color};
+  //--global-theme-color: #{v.$cyan-color};
+  //--global-hover-color: #{v.$cyan-color};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-light};
   --global-footer-text-color: #{v.$grey-color-dark};
