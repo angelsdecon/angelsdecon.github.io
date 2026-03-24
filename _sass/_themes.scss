@@ -6,12 +6,19 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{v.$white-color};
+  --global-bg-color: #f1ecce;          /* Tu beige para el fondo */
+  --global-text-color: #092327;        /* Casi negro para el texto */
+  --global-text-color-light: #6e8387;  /* Gris para textos secundarios */
+  --global-theme-color: #885053;       /* Marrón para los enlaces (se lee mejor sobre el beige) */
+  --global-hover-color: #f2b7c6;       /* Tu rosa flojo aparecerá al pasar el ratón */
+  --global-hover-icon-color: #f2b7c6;  /* Rosa para iconos al pasar el ratón */
+  
+ // --global-bg-color: #{v.$white-color};
   --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+ // --global-text-color: #{v.$black-color};
+ // --global-text-color-light: #{v.$grey-color};
+ // --global-theme-color: #{v.$purple-color};
+ // --global-hover-color: #{v.$purple-color};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
