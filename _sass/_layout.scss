@@ -60,10 +60,16 @@ body.sticky-bottom-footer {
 ******************************************************************************
 * ICONOS MÁS PEQUEÑOS
 ******************************************************************************
-.social .contact-icon {
-  font-size: 1.2rem; 
+/* Forzar la reducción de los iconos gigantes de contacto */
+.social i,
+.social svg,
+.contact-icons i,
+.contact-icons svg {
+  font-size: 1.8rem !important;
+  width: 1.8rem !important;
+  height: 1.8rem !important;
+  margin: 0 5px !important; /* Un poco de espacio entre ellos */
 }
-
 /* Centrar el título principal (CV) y su descripción */
 .post-header {
   text-align: center;
