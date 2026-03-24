@@ -61,5 +61,30 @@ body.sticky-bottom-footer {
 * ICONOS MÁS PEQUEÑOS
 ******************************************************************************
 .social .contact-icon {
-  font-size: 1.5rem; 
+  font-size: 1.2rem; 
+}
+
+/* Centrar el título principal (CV) y su descripción */
+.post-header {
+  text-align: center;
+}
+
+/* Centrar los títulos de cada caja (contact information, experience...) */
+.cv .card-title {
+  text-align: center;
+  width: 100%;
+}
+
+/* Centrar el texto de los párrafos dentro de las cajas */
+.cv .card-text {
+  text-align: center;
+}
+
+/* Centrar las tablas (como la de contact information) y su contenido */
+.cv table {
+  margin: 0 auto;
+}
+.cv table td, 
+.cv table th {
+  text-align: center;
 }
