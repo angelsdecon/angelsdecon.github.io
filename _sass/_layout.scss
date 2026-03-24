@@ -36,9 +36,21 @@ body {
   margin: 0 5px !important;
 }
 
-/* 4. SECCIÓN CV: CENTRADO TOTAL */
+/* 4. SECCIÓN CV: CENTRADO TOTAL Y LIMPIEZA DE BLANCOS */
 .post-header {
   text-align: center;
+}
+
+/* Forzar que TODAS las cajas y tablas del CV sean transparentes o del color de fondo */
+.cv .card, 
+.cv .list-group-item, 
+.cv table, 
+.cv .contact-group,
+.cv .table {
+  background-color: transparent !important;
+  background: transparent !important;
+  border-color: var(--global-divider-color) !important;
+  text-align: center !important;
 }
 
 .cv .card-title, .cv .card-text {
@@ -48,7 +60,11 @@ body {
 
 .cv table {
   margin: 0 auto;
-  td, th { text-align: center; }
+  td, th { 
+    text-align: center !important;
+    background-color: transparent !important;
+    color: var(--global-text-color) !important;
+  }
 }
 
 /* 5. BOTÓN CV (PDF) */
