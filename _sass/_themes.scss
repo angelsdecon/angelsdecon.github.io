@@ -12,6 +12,7 @@
   --global-theme-color: #885053;       /* Marrón para los enlaces (se lee mejor sobre el beige) */
   --global-hover-color: #f2b7c6;       /* Tu rosa flojo aparecerá al pasar el ratón */
   --global-hover-icon-color: #f2b7c6;  /* Rosa para iconos al pasar el ratón */
+  --global-card-bg-color: #FDFBF4 /* #f1ecce; O pon #FDFBF4 si quieres que sean un pelín más claras que el fondo */
   
  // --global-bg-color: #{v.$white-color};
   --global-code-bg-color: #{v.$code-bg-color-light};
@@ -25,7 +26,7 @@
   --global-footer-link-color: #{v.$white-color};
   --global-distill-app-color: #{v.$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$white-color};
+  //--global-card-bg-color: #{v.$white-color};
   --global-highlight-color: #{v.$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
@@ -90,7 +91,7 @@ html[data-theme="dark"] {
   --global-theme-color: #f2b7c6;       /* Rosa flojo (Enlaces: brilla perfecto en la oscuridad) */
   --global-hover-color: #885053;       /* Marrón (Al pasar el ratón) */
   --global-hover-icon-color: #f2b7c6;  /* Rosa flojo (Iconos al pasar el ratón) */
-  
+  --global-card-bg-color: #092327 /*#0d343a; /* Un tono un poquito más claro que tu fondo oscuro (#092327) para que se distingan */
   //--global-bg-color: #{v.$grey-color-dark};
   --global-code-bg-color: #{v.$code-bg-color-dark};
   //--global-text-color: #{v.$grey-color-light};
@@ -103,7 +104,7 @@ html[data-theme="dark"] {
   --global-footer-link-color: #{v.$black-color};
   --global-distill-app-color: #{v.$grey-color-light};
   --global-divider-color: #424246;
-  --global-card-bg-color: #{v.$grey-900};
+  //--global-card-bg-color: #{v.$grey-900};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$white-color, "red", v.$space: rgb)},
     #{color.channel(v.$white-color, "green", v.$space: rgb)},
