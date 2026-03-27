@@ -4,8 +4,8 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
-cv_pdf: /assets/pdf/CV_angel.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
+cv_pdf: /assets/pdf/CV_angel.pdf
+cv_format: rendercv
 description: what i've been doing so far! i'd love to do so many more things!
 toc: false
 ---
@@ -22,7 +22,6 @@ toc: false
     <a href="mailto:angelsd1998@usal.es">angelsd1998@usal.es</a> | fes building, 'miguel de unamuno' campus, salamanca, spain
   </p>
 </div>
-/* Removed: toc: false sidebar: left */
 
 <style>
   /* Forzar minúsculas en los títulos de las cajas del CV */
