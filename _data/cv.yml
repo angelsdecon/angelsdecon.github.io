@@ -1,10 +1,10 @@
 cv:
-  name: ángel sánchez-daniel
-  label: predoctoral researcher
-  email: angelsd1998@usal.es
-  location: salamanca, spain
-  image: ""
-  summary: "predoctoral researcher in applied microeconomics. my research focuses on ageing, labour, and policy evaluation through causal inference and quasi-experimental methods."
+#  name: ángel sánchez-daniel
+#  label: predoctoral researcher
+#  email: angelsd1998@usal.es
+#  location: salamanca, spain
+#  image: ""
+#  summary: "predoctoral researcher in applied microeconomics. my research focuses on ageing, labour, and policy evaluation through causal inference and quasi-experimental methods."
 
   social_networks:
     - network: twitter
