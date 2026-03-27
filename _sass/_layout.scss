@@ -5,27 +5,29 @@
 @use "variables" as v;
 
 /* 1. IMPORTACIÓN DE FUENTES */
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;600;700&family=Inter:wght@300;400;600&display=swap');
+/* Hemos quitado Exo y añadido Alfa Slab One, manteniendo Inter para los textos largos */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@300;400;600&display=swap');
 
 /* 2. TIPOGRAFÍA Y CUERPO */
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-  font-family: 'Inter', sans-serif !important;
+  font-family: 'Inter', sans-serif !important; /* Mantenemos Inter para que se lea bien el CV */
   line-height: 1.6;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
-    font-family: 'Exo', sans-serif !important;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+    font-family: 'Alfa Slab One', serif !important; /* ¡Aquí entra la nueva fuente! */
+    font-weight: 400; /* Alfa Slab One ya es muy gruesa, no necesita bold */
+    letter-spacing: 1px;
   }
 }
 
-/* Aplicar Exo también a menús y títulos de tarjetas */
+/* Aplicar Alfa Slab One también a menús y títulos de tarjetas */
 .navbar-brand, .nav-link, .post-title, .card-title, .title {
-  font-family: 'Exo', sans-serif !important;
+  font-family: 'Alfa Slab One', serif !important;
+  font-weight: 400;
 }
 
 /* 3. ICONOS DE CONTACTO (Domando a los gigantes) */
