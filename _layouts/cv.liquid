@@ -38,7 +38,7 @@ layout: default
   </header>
 
 <style>
-  /* Forzamos el efecto hover para las cajas del CV */
+  /* 1. Efecto hover para las cajas del CV */
   .card {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
   }
@@ -46,6 +46,24 @@ layout: default
     transform: translateY(-5px) !important;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5) !important;
     border-color: rgba(255, 255, 255, 0.15) !important;
+  }
+
+  /* 2. Centrar el año/fecha verticalmente respecto al texto de la derecha */
+  .cv .row {
+    align-items: center !important;
+  }
+  .cv table td {
+    vertical-align: middle !important;
+  }
+
+  /* 3. Quitar los puntos raros de las listas y ajustar el espacio */
+  .cv ul {
+    list-style-type: none !important; /* Elimina los puntos */
+    padding-left: 0 !important;       /* Quita el hueco vacío de la izquierda */
+    margin-left: 0 !important;
+  }
+  .cv li {
+    margin-bottom: 0.4rem !important; /* Deja un poco de aire entre cada línea para que se lea mejor */
   }
 </style>
 
