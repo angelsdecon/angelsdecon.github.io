@@ -101,3 +101,13 @@ body.fixed-top-nav { padding-top: 57px; }
 body.sticky-bottom-footer { padding-bottom: 0; }
 .container { max-width: v.$max-content-width; }
 .profile img { width: 100%; }
+
+/* 8. AJUSTAR EL SUBTÍTULO (DESCRIPCIÓN) DE LAS PÁGINAS */
+header.post-header .post-description {
+  text-align: center !important;
+  font-size: 1rem !important; /* Lo bajamos al tamaño del texto normal */
+  color: var(--global-text-color) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block;
+}
