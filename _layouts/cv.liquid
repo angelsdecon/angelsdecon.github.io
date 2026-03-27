@@ -37,6 +37,31 @@ layout: default
     {% endif %}
   </header>
 
+<style>
+  /* Forzamos el efecto hover para las cajas del CV */
+  .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+  }
+  .card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+  }
+</style>
+
+<div class="card mt-3 mb-4 p-4 text-center">
+  <h2 class="font-weight-bold" style="color: var(--global-theme-color); text-transform: lowercase;">ángel sánchez-daniel</h2>
+  <h5 class="text-muted mb-3" style="text-transform: lowercase;">predoctoral researcher</h5>
+  
+  <p class="mb-4" style="max-width: 800px; margin: 0 auto; text-transform: lowercase;">
+    predoctoral researcher in applied microeconomics. my research focuses on ageing, labour, and policy evaluation through causal inference and quasi-experimental methods.
+  </p>
+  
+  <p class="mb-1 text-muted small" style="text-transform: lowercase;">
+    <a href="mailto:angelsd1998@usal.es">angelsd1998@usal.es</a> | fes building, 'miguel de unamuno' campus, salamanca, spain
+  </p>
+</div>
+
   <article>
     <div class="cv">
       {% comment %} Determine which CV format to render {% endcomment %}
