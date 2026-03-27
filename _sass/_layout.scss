@@ -123,8 +123,17 @@ header.post-header .post-description {
   margin-right: auto !important;
   display: block;
 }
-/* 9. SECCIÓN NEWS: FORMATO VERTICAL Y CENTRADO */
+
+/* 9. SECCIÓN NEWS: FORMATO VERTICAL, CENTRADO Y ANCHO TOTAL */
 .news {
+  /* 1. Centramos el título principal de la sección */
+  h2 {
+    text-align: center !important;
+    margin-bottom: 2.5rem !important;
+    width: 100% !important;
+    display: block !important;
+  }
+
   table {
     display: block !important;
     width: 100% !important;
@@ -134,37 +143,31 @@ header.post-header .post-description {
       width: 100% !important;
     }
 
-    /* Convertimos cada fila de la tabla en un bloque vertical */
     tr {
       display: flex !important;
       flex-direction: column !important;
       align-items: center !important;
-      margin-bottom: 2rem !important; /* Espacio entre noticias */
-      border: none !important;
+      margin-bottom: 3rem !important; /* Más espacio entre noticias para que respire */
+      width: 100% !important;
     }
 
-    /* Ajustamos la fecha */
+    /* La fecha centrada */
     td:first-child {
       font-family: 'Exo', sans-serif !important;
       font-weight: bold !important;
       color: var(--global-theme-color) !important;
-      padding-bottom: 0.2rem !important;
-      min-width: 100% !important;
-      text-align: center !important;
-    }
-
-    /* Ajustamos el comentario/noticia */
-    td:last-child {
-      padding-top: 0 !important;
       text-align: center !important;
       width: 100% !important;
-      max-width: 600px !important; /* Para que el texto no se estire demasiado */
+      padding: 0 0 0.5rem 0 !important;
+    }
+
+    /* El texto de la noticia estirado */
+    td:last-child {
+      text-align: center !important;
+      width: 100% !important;
+      max-width: 900px !important; /* Aquí es donde "estiramos" el texto */
+      padding: 0 !important;
+      line-height: 1.5 !important;
     }
   }
-}
-
-/* Centrar el título de "news" si no lo estaba ya */
-h2.news-title {
-  text-align: center !important;
-  margin-bottom: 2rem !important;
 }
