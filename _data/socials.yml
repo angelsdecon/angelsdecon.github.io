@@ -24,13 +24,13 @@ custom_social:
 #  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #  title: substack
 #  url: https://www.alberteinstein.com/
-#substack: 
+#substack:
 #  title: Substack
 #  url: https://litoangel.substack.com
 #  icon: fas fa-bookmark
 #letterboxd_id:
 #  value: your_letterboxd_username # the actual username or ID value
-#  logo: fa-brands fa-letterboxd # override with custom icon class  
+#  logo: fa-brands fa-letterboxd # override with custom icon class
 
 # Included:
 # email, scholar_userid, orcid_id, x_username, linkedin_username,  github_username

@@ -22,6 +22,7 @@ pagination:
 {% assign blog_description_size = site.blog_description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
+
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
@@ -56,7 +57,7 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ read_time }} min read &middot; 
+                      {{ read_time }} min read &middot;
                       <a href="{{ year | prepend: '/blog/' | relative_url }}">
                         <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
@@ -70,6 +71,7 @@ pagination:
       </div>
     </div>
     <hr>
+
 {% endif %}
 
   <ul class="post-list">
@@ -89,7 +91,9 @@ pagination:
     {% assign year = post.date | date: "%Y" %}
 
     <li>
+
 {% if post.thumbnail %}
+
 <div class="row">
           <div class="col-sm-9">
 {% endif %}
@@ -119,6 +123,7 @@ pagination:
       </p>
 
 {% if post.thumbnail %}
+
 </div>
   <div class="col-sm-3">
     <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">

@@ -38,5 +38,5 @@ hi guys! i'm ángel!👋
 💻 i'm a stata-guy for `econometrics` stuff and an r-guy for `data visualization` 📈. python is on my wishlist to learn this year. i keep up with all the new ai tools, i believe critical thinking will be more crucial than ever, although i hope claude code does not replace my job.
 
 👨‍🏫 additionally, i teach a couple of courses to economics undergraduates and, so far, i'm loving it. students really push me to stay updated on lots of topics 📊.
-</div>
 
+</div>

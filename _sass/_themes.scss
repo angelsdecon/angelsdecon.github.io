@@ -6,20 +6,19 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #f1ecce;          /* Tu beige para el fondo */
-  --global-text-color: #092327;        /* Casi negro para el texto */
-  --global-text-color-light: #6e8387;  /* Gris para textos secundarios */
-  --global-theme-color: #885053;       /* Marrón para los enlaces (se lee mejor sobre el beige) */
-  --global-hover-color: #f2b7c6;       /* Tu rosa flojo aparecerá al pasar el ratón */
-  --global-hover-icon-color: #f2b7c6;  /* Rosa para iconos al pasar el ratón */
-  --global-card-bg-color: #FDFBF4 /* #f1ecce; O pon #FDFBF4 si quieres que sean un pelín más claras que el fondo */
-  
- // --global-bg-color: #{v.$white-color};
-  --global-code-bg-color: #{v.$code-bg-color-light};
- // --global-text-color: #{v.$black-color};
- // --global-text-color-light: #{v.$grey-color};
- // --global-theme-color: #{v.$purple-color};
- // --global-hover-color: #{v.$purple-color};
+  --global-bg-color: #f1ecce; /* Tu beige para el fondo */
+  --global-text-color: #092327; /* Casi negro para el texto */
+  --global-text-color-light: #6e8387; /* Gris para textos secundarios */
+  --global-theme-color: #885053; /* Marrón para los enlaces (se lee mejor sobre el beige) */
+  --global-hover-color: #f2b7c6; /* Tu rosa flojo aparecerá al pasar el ratón */
+  --global-hover-icon-color: #f2b7c6; /* Rosa para iconos al pasar el ratón */
+  --global-card-bg-color: #fdfbf4 /* #f1ecce; O pon #FDFBF4 si quieres que sean un pelín más claras que el fondo */
+    // --global-bg-color: #{v.$white-color};
+    --global-code-bg-color: #{v.$code-bg-color-light};
+  // --global-text-color: #{v.$black-color};
+  // --global-text-color-light: #{v.$grey-color};
+  // --global-theme-color: #{v.$purple-color};
+  // --global-hover-color: #{v.$purple-color};
   --global-hover-text-color: #{v.$white-color};
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
@@ -85,15 +84,15 @@
 html[data-theme="dark"] {
   color-scheme: dark;
 
-  --global-bg-color: #092327;          /* Casi negro (Fondo principal) */
-  --global-text-color: #f1ecce;        /* Beige (Texto principal para que destaque) */
-  --global-text-color-light: #6e8387;  /* Gris (Texto secundario) */
-  --global-theme-color: #f2b7c6;       /* Rosa flojo (Enlaces: brilla perfecto en la oscuridad) */
-  --global-hover-color: #885053;       /* Marrón (Al pasar el ratón) */
-  --global-hover-icon-color: #f2b7c6;  /* Rosa flojo (Iconos al pasar el ratón) */
+  --global-bg-color: #092327; /* Casi negro (Fondo principal) */
+  --global-text-color: #f1ecce; /* Beige (Texto principal para que destaque) */
+  --global-text-color-light: #6e8387; /* Gris (Texto secundario) */
+  --global-theme-color: #f2b7c6; /* Rosa flojo (Enlaces: brilla perfecto en la oscuridad) */
+  --global-hover-color: #885053; /* Marrón (Al pasar el ratón) */
+  --global-hover-icon-color: #f2b7c6; /* Rosa flojo (Iconos al pasar el ratón) */
   --global-card-bg-color: #092327 /*#0d343a; /* Un tono un poquito más claro que tu fondo oscuro (#092327) para que se distingan */
-  //--global-bg-color: #{v.$grey-color-dark};
-  --global-code-bg-color: #{v.$code-bg-color-dark};
+    //--global-bg-color: #{v.$grey-color-dark};
+    --global-code-bg-color: #{v.$code-bg-color-dark};
   //--global-text-color: #{v.$grey-color-light};
   //--global-text-color-light: #{v.$grey-color};
   //--global-theme-color: #{v.$cyan-color};

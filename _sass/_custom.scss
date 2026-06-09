@@ -1,19 +1,22 @@
 /* Efecto hover elegante para las cajas del CV */
 .card {
   /* Preparamos la caja para que el cambio no sea brusco, sino fluido (0.3 segundos) */
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
-  
+  transition:
+    transform 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+
   /* Estado normal: borde súper sutil para que parezca cristal */
   border: 1px solid rgba(255, 255, 255, 0.05);
 
   &:hover {
     /* 1. Eleva la caja 5 píxeles hacia arriba */
     transform: translateY(-5px);
-    
+
     /* 2. Añade una sombra oscura debajo para dar profundidad (ideal para fondos oscuros) */
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
-    
+
     /* 3. Opcional: ilumina un poco el borde al pasar el ratón */
-    border-color: rgba(255, 255, 255, 0.15); 
+    border-color: rgba(255, 255, 255, 0.15);
   }
 }

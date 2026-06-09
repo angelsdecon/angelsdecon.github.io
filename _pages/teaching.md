@@ -8,7 +8,7 @@ nav_order: 4
 calendar: true
 ---
 
-course 25-26: `macroeconomis i`: 2nd year bachelor's degree in economics. university of salamanca, spain. 
+course 25-26: `macroeconomis i`: 2nd year bachelor's degree in economics. university of salamanca, spain.
 
 course 25-26: `labour economics`: 4th year bachelor's degree in economics. university of salamanca, spain.
 

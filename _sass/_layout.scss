@@ -5,27 +5,31 @@
 @use "variables" as v;
 
 /* 1. IMPORTACIÓN DE FUENTES (Traemos las 3) */
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Exo:wght@400;600;700&family=Inter:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Exo:wght@400;600;700&family=Inter:wght@300;400;600&display=swap");
 
 /* 2. TIPOGRAFÍA Y CUERPO */
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-  font-family: 'Inter', sans-serif !important; /* Textos largos legibles */
+  font-family: "Inter", sans-serif !important; /* Textos largos legibles */
   line-height: 1.6;
 
   /* Títulos de nivel secundario (dentro de cajas, secciones menores...) */
-  h2, h3, h4, h5, h6 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     scroll-margin-top: 66px;
-    font-family: 'Exo', sans-serif !important;
+    font-family: "Exo", sans-serif !important;
     font-weight: 600;
     letter-spacing: 0.5px;
   }
 
   /* ¡LA MAGIA! Solo los Títulos Principales de la web */
   h1 {
-    font-family: 'Alfa Slab One', serif !important;
+    font-family: "Alfa Slab One", serif !important;
     font-weight: 400;
     letter-spacing: 1px;
   }
@@ -33,17 +37,23 @@ body {
 
 /* Aplicar la fuente llamativa a los títulos de página y dejar el resto limpio */
 .post-title {
-  font-family: 'Alfa Slab One', serif !important;
+  font-family: "Alfa Slab One", serif !important;
   font-weight: 400;
 }
 
 /* Menú y títulos de las tarjetas se quedan con la fuente moderna y limpia */
-.navbar-brand, .nav-link, .card-title, .title {
-  font-family: 'Exo', sans-serif !important;
+.navbar-brand,
+.nav-link,
+.card-title,
+.title {
+  font-family: "Exo", sans-serif !important;
 }
 
 /* 3. ICONOS DE CONTACTO (Domando a los gigantes) */
-.social i, .social svg, .contact-icons i, .contact-icons svg {
+.social i,
+.social svg,
+.contact-icons i,
+.contact-icons svg {
   font-size: 1.8rem !important;
   width: 1.8rem !important;
   height: 1.8rem !important;
@@ -56,9 +66,9 @@ body {
 }
 
 /* Forzar que TODAS las cajas y tablas del CV sean transparentes o del color de fondo */
-.cv .card, 
-.cv .list-group-item, 
-.cv table, 
+.cv .card,
+.cv .list-group-item,
+.cv table,
 .cv .contact-group,
 .cv .table {
   background-color: transparent !important;
@@ -67,14 +77,16 @@ body {
   text-align: center !important;
 }
 
-.cv .card-title, .cv .card-text {
+.cv .card-title,
+.cv .card-text {
   text-align: center;
   width: 100%;
 }
 
 .cv table {
   margin: 0 auto;
-  td, th { 
+  td,
+  th {
     text-align: center !important;
     background-color: transparent !important;
     color: var(--global-text-color) !important;
@@ -98,21 +110,34 @@ body {
     color: var(--global-theme-color);
     text-decoration: none;
     font-weight: bold;
-    &::after { content: " Descargar CV (PDF)"; }
+    &::after {
+      content: " Descargar CV (PDF)";
+    }
   }
 }
 
 /* 6. SECCIÓN NEWS (Corrección de color) */
-.news, .news table, .news table th, .news table td {
+.news,
+.news table,
+.news table th,
+.news table td {
   background-color: transparent !important;
   color: var(--global-text-color) !important;
 }
 
 /* 7. ESTRUCTURA BASE */
-body.fixed-top-nav { padding-top: 57px; }
-body.sticky-bottom-footer { padding-bottom: 0; }
-.container { max-width: v.$max-content-width; }
-.profile img { width: 100%; }
+body.fixed-top-nav {
+  padding-top: 57px;
+}
+body.sticky-bottom-footer {
+  padding-bottom: 0;
+}
+.container {
+  max-width: v.$max-content-width;
+}
+.profile img {
+  width: 100%;
+}
 
 /* 8. AJUSTAR EL SUBTÍTULO (DESCRIPCIÓN) DE LAS PÁGINAS */
 header.post-header .post-description {
@@ -136,7 +161,7 @@ header.post-header .post-description {
     width: 100% !important;
     margin: 2rem 0 1.5rem 0 !important;
     display: block !important;
-    font-family: 'Alfa Slab One', serif !important; /* Usando tu fuente de "logo" */
+    font-family: "Alfa Slab One", serif !important; /* Usando tu fuente de "logo" */
   }
 
   table {
@@ -147,11 +172,11 @@ header.post-header .post-description {
     border: none !important;
     border-collapse: collapse !important;
     margin: 0 auto !important;
-    
+
     tbody {
       display: block !important;
       width: 100% !important;
-      max-width: 800px !important; 
+      max-width: 800px !important;
       margin: 0 auto !important;
     }
 
@@ -179,7 +204,7 @@ header.post-header .post-description {
 
     /* La fecha: pegadísima al texto */
     td:first-child {
-      font-family: 'Exo', sans-serif !important;
+      font-family: "Exo", sans-serif !important;
       font-weight: bold !important;
       color: var(--global-theme-color) !important;
       font-size: 0.8rem !important;

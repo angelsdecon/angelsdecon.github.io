@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 🌈🎨 new color palette and new fonts! still need some improvements in cv page but is almost done! 🤓🎯
-

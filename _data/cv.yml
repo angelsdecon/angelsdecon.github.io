@@ -1,10 +1,10 @@
 cv:
-#  name: ángel sánchez-daniel
-#  label: predoctoral researcher
-#  email: angelsd1998@usal.es
-#  location: salamanca, spain
-#  image: ""
-#  summary: "predoctoral researcher in applied microeconomics. my research focuses on ageing, labour, and policy evaluation through causal inference and quasi-experimental methods."
+  #  name: ángel sánchez-daniel
+  #  label: predoctoral researcher
+  #  email: angelsd1998@usal.es
+  #  location: salamanca, spain
+  #  image: ""
+  #  summary: "predoctoral researcher in applied microeconomics. my research focuses on ageing, labour, and policy evaluation through causal inference and quasi-experimental methods."
 
   social_networks:
     - network: twitter
@@ -89,7 +89,7 @@ cv:
           - sánchez-daniel, á. and malo, m.á.
         publisher: working paper (planned submission at review of economics of the household)
         releaseDate: 2025-10-02
-    
+
       - title: "actionable human-water systems modeling under uncertainty"
         authors:
           - gil-garcía, l. et al.
@@ -138,7 +138,7 @@ cv:
         date: 2024-07-12
         event: xvi labour economics meeting (aeet)
         location: university of barcelona, barcelona, spain
-        
+
     Skills:
       - name: advanced
         level:
@@ -146,7 +146,7 @@ cv:
         keywords: "stata, r, latex, ms office, arcgis"
 
       - name: basic
-        level: 
+        level:
         icon: fa-solid fa-laptop
         keywords: "matlab, spss, mathematica, eviews, python, gams"
 

@@ -219,7 +219,6 @@ ul.timeline li::before {
 }
 */
 
-
 /* mis ajustes (forzar minusculas) */
 .cv h2,
 .cv h3,
@@ -260,11 +259,11 @@ nav[data-toggle="toc"] .nav-link,
   align-items: center;
   gap: 12px; /* Separación entre el icono y el texto */
   padding: 12px 24px; /* Relleno del botón */
-  
+
   /* Borde y color de acento (puedes cambiar este azul por otro) */
-  border: 2px solid #0056b3; 
+  border: 2px solid #0056b3;
   border-radius: 6px; /* Bordes redondeados */
-  
+
   color: #0056b3; /* Color del texto e icono */
   text-decoration: none; /* Sin subrayado */
   font-weight: bold; /* Texto en negrita */
@@ -283,7 +282,7 @@ nav[data-toggle="toc"] .nav-link,
 .cv .post-header .cv-pdf a:hover {
   background-color: #0056b3; /* Fondo azul */
   color: #ffffff; /* Texto blanco */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Pequeña sombra */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Pequeña sombra */
 }
 
 /* Asegurar que el icono original no moleste al texto añadido */

@@ -6,6 +6,7 @@ description:
 nav: true
 nav_order: 3
 ---
+
 <style>
   /* --- 1. NORMALIZAR TAMAÑO DE LETRA --- */
   /* Tienes razón, el tema usa un tamaño base más grande en estas páginas. 
