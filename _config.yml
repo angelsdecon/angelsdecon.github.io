@@ -20,7 +20,7 @@ footer_text: >
   photos from <a href="https://amadasanchez.wordpress.com/" target="_blank">my sister!</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: CV_photo.jpeg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://angelsdecon.github.io
 baseurl:

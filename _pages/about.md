@@ -1,12 +1,12 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle:
 
 profile:
   align: right
-  image: angel.png
+  image: CV_photo_11.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <span style="font-size: 0.85rem;">dept. of economics & econ. history</span><br>

@@ -4,13 +4,40 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
+      <span id="typed-name"></span>
     </h1>
+    <style>
+      .typed-cursor {
+        opacity: 1;
+        animation: typedBlink 0.7s infinite;
+      }
+
+      @keyframes typedBlink {
+        0%,
+        50% {
+          opacity: 1;
+        }
+
+        51%,
+        100% {
+          opacity: 0;
+        }
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Typed("#typed-name", {
+          strings: ["ángel sánchez daniel"],
+          typeSpeed: 50,
+          startDelay: 500,
+          loop: false,
+          showCursor: true,
+          cursorChar: "|",
+          fadeOut: true
+        });
+      });
+    </script>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
@@ -42,7 +69,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h2 class="home-news-title">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -67,7 +94,35 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-icons">
+          <span class="social-link">
+            <a href="mailto:{{ site.data.socials.email | strip }}">email</a>
+          </span>
+          <span class="social-separator">&middot;</span>
+          <span class="social-link">
+            <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid | strip }}" target="_blank" rel="noopener">gscholar</a>
+          </span>
+          <span class="social-separator">&middot;</span>
+          <span class="social-link">
+            <a href="https://orcid.org/{{ site.data.socials.orcid_id | strip }}" target="_blank" rel="noopener">orcid</a>
+          </span>
+          <span class="social-separator">&middot;</span>
+          <span class="social-link">
+            <a href="https://x.com/{{ site.data.socials.x_username | strip }}" target="_blank" rel="noopener">twitter</a>
+          </span>
+          <span class="social-separator">&middot;</span>
+          <span class="social-link">
+            <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username | strip }}" target="_blank" rel="noopener">linkedin</a>
+          </span>
+          <span class="social-separator">&middot;</span>
+          <span class="social-link">
+            <a href="https://github.com/{{ site.data.socials.github_username | strip }}" target="_blank" rel="noopener">github</a>
+          </span>
+          <span class="social-separator">&middot;</span>
+          <span class="social-link">
+            <a href="{{ site.data.socials.custom_social.url | default: 'https://litoangel.substack.com' }}" target="_blank" rel="noopener">substack</a>
+          </span>
+        </div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

@@ -49,15 +49,22 @@ body {
   font-family: "Exo", sans-serif !important;
 }
 
-/* 3. ICONOS DE CONTACTO (Domando a los gigantes) */
-.social i,
-.social svg,
-.contact-icons i,
-.contact-icons svg {
-  font-size: 1.8rem !important;
-  width: 1.8rem !important;
-  height: 1.8rem !important;
-  margin: 0 5px !important;
+/* 3. CONTACTO: ENLACES DE TEXTO LIMPIOS */
+.social .contact-icons {
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.social .contact-icons .social-link a {
+  text-decoration: none;
+}
+
+.social .contact-icons .social-link a:hover {
+  text-decoration: underline;
+}
+
+.social .contact-icons .social-separator {
+  margin: 0 0.35rem;
 }
 
 /* 4. SECCIÓN CV: CENTRADO TOTAL Y LIMPIEZA DE BLANCOS */
@@ -150,6 +157,13 @@ header.post-header .post-description {
 }
 
 /* 9. SECCIÓN NEWS: CENTRADO TOTAL, TÍTULO Y COMPACTACIÓN MÁXIMA */
+.home-news-title {
+  text-align: center !important;
+  width: 100% !important;
+  margin: 2rem 0 1.5rem 0 !important;
+  display: block !important;
+}
+
 .news {
   margin: 0 auto !important;
   width: 100% !important;

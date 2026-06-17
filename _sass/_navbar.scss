@@ -57,10 +57,25 @@
 
   .navbar-brand {
     color: var(--global-text-color);
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.5rem;
+
+    .brand-handle {
+      letter-spacing: 0.02em;
+      text-transform: lowercase;
+    }
+
+    .brand-mark {
+      color: var(--global-theme-color);
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    text-transform: lowercase;
 
     &:hover {
       color: var(--global-hover-color);
@@ -113,6 +128,17 @@
       }
     }
   }
+}
+
+.lang-switch .nav-link {
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+  letter-spacing: 0.02em;
+}
+
+.lang-switch .nav-link.active-lang {
+  color: var(--global-theme-color);
+  font-weight: bolder;
 }
 
 .navbar-toggler {
