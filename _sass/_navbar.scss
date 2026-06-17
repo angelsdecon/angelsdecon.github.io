@@ -131,14 +131,23 @@
 }
 
 .lang-switch .nav-link {
-  padding-left: 0.35rem;
-  padding-right: 0.35rem;
+  padding-left: 0.28rem;
+  padding-right: 0.28rem;
   letter-spacing: 0.02em;
+  font-size: 0.78rem;
+  opacity: 0.6;
 }
 
 .lang-switch .nav-link.active-lang {
   color: var(--global-theme-color);
-  font-weight: bolder;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.lang-divider {
+  margin-left: 0.55rem;
+  padding-left: 0.55rem;
+  border-left: 1px solid var(--global-divider-color);
 }
 
 .navbar-toggler {

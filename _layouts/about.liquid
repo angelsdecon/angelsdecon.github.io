@@ -4,7 +4,7 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title home-main-title">
-      <span id="typed-name"></span>
+      <span id="typed-name">ángel sánchez daniel</span>
     </h1>
     <style>
       .typed-cursor {
@@ -27,6 +27,12 @@ layout: default
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
+        var target = document.getElementById("typed-name");
+        if (!target) return;
+        if (typeof Typed === "undefined") {
+          target.textContent = "ángel sánchez daniel";
+          return;
+        }
         new Typed("#typed-name", {
           strings: ["ángel sánchez daniel"],
           typeSpeed: 50,
