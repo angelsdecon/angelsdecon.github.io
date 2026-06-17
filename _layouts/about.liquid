@@ -76,7 +76,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2 class="home-news-title">
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit" data-i18n="news">news</a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -84,7 +84,7 @@ layout: default
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit" data-i18n="latest_posts">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
@@ -92,7 +92,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit" data-i18n="selected_publications">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
@@ -102,31 +102,31 @@ layout: default
       <div class="social">
         <div class="contact-icons">
           <span class="social-link">
-            <a href="mailto:{{ site.data.socials.email | strip }}">email</a>
+            <a href="mailto:{{ site.data.socials.email | strip }}" data-i18n="social_email">email</a>
           </span>
           <span class="social-separator">&middot;</span>
           <span class="social-link">
-            <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid | strip }}" target="_blank" rel="noopener">gscholar</a>
+            <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid | strip }}" target="_blank" rel="noopener" data-i18n="social_gscholar">gscholar</a>
           </span>
           <span class="social-separator">&middot;</span>
           <span class="social-link">
-            <a href="https://orcid.org/{{ site.data.socials.orcid_id | strip }}" target="_blank" rel="noopener">orcid</a>
+            <a href="https://orcid.org/{{ site.data.socials.orcid_id | strip }}" target="_blank" rel="noopener" data-i18n="social_orcid">orcid</a>
           </span>
           <span class="social-separator">&middot;</span>
           <span class="social-link">
-            <a href="https://x.com/{{ site.data.socials.x_username | strip }}" target="_blank" rel="noopener">twitter</a>
+            <a href="https://x.com/{{ site.data.socials.x_username | strip }}" target="_blank" rel="noopener" data-i18n="social_twitter">twitter</a>
           </span>
           <span class="social-separator">&middot;</span>
           <span class="social-link">
-            <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username | strip }}" target="_blank" rel="noopener">linkedin</a>
+            <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username | strip }}" target="_blank" rel="noopener" data-i18n="social_linkedin">linkedin</a>
           </span>
           <span class="social-separator">&middot;</span>
           <span class="social-link">
-            <a href="https://github.com/{{ site.data.socials.github_username | strip }}" target="_blank" rel="noopener">github</a>
+            <a href="https://github.com/{{ site.data.socials.github_username | strip }}" target="_blank" rel="noopener" data-i18n="social_github">github</a>
           </span>
           <span class="social-separator">&middot;</span>
           <span class="social-link">
-            <a href="{{ site.data.socials.custom_social.url | default: 'https://litoangel.substack.com' }}" target="_blank" rel="noopener">substack</a>
+            <a href="{{ site.data.socials.custom_social.url | default: 'https://litoangel.substack.com' }}" target="_blank" rel="noopener" data-i18n="social_substack">substack</a>
           </span>
         </div>
 

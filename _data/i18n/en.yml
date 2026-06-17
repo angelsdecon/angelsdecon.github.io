@@ -1,0 +1,15 @@
+search: search
+theme: theme
+toggle_navigation: "Toggle navigation"
+about_title: about
+social_email: email
+social_gscholar: gscholar
+social_orcid: orcid
+social_twitter: twitter
+social_linkedin: linkedin
+social_github: github
+social_substack: substack
+current: "(current)"
+news: news
+latest_posts: "latest posts"
+selected_publications: "selected publications"
