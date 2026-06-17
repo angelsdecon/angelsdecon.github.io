@@ -7,10 +7,12 @@ nav: true
 nav_order: 3
 calendar: true
 ---
+course 25-26; 26-27: `labour economics`: 4th year bachelor's degree in economics. university of salamanca, spain.
+
+course 26-27: `macroeconomis iii`: 3th year bachelor's degree in economics. university of salamanca, spain.
 
 course 25-26: `macroeconomis i`: 2nd year bachelor's degree in economics. university of salamanca, spain.
 
-course 25-26: `labour economics`: 4th year bachelor's degree in economics. university of salamanca, spain.
 
 for students: materials are available in [studium](https://studium25.usal.es/). for doubts drop me an email.
 
