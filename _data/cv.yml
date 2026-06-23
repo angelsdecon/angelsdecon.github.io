@@ -32,7 +32,7 @@ cv:
         score: ""
         courses: "supervisor: miguel á. malo"
         highlights:
-          - "topics: ageing (health, social contacts), family (wealth, gender)"
+          - "topics: ageing (health, social contacts, well-being), family (wealth, gender)"
           - "methods: applied microeconometrics, quasi-experimental designs"
 
       - institution: university of barcelona, autonomouos of barcelona & of girona
@@ -56,7 +56,7 @@ cv:
           - "main courses: macroeconomics, econometrics, labour economics"
           - "exchange program in university of belgrano, buenos aires, argentina (2019)."
 
-    Experience:
+    experience:
       - company: university of salamanca
         position: predoctoral researcher
         location: salamanca, spain
@@ -90,21 +90,27 @@ cv:
         publisher: working paper (planned submission at review of economics of the household)
         releaseDate: 2025-10-02
 
-      - title: "actionable human-water systems modeling under uncertainty"
+      - title: >
+          <img src="/assets/img/hess.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          actionable human-water systems modeling under uncertainty
         authors:
           - gil-garcía, l. et al.
         publisher: hydrology and earth system sciences
         releaseDate: 2024-01-01
         url: "https://doi.org/10.5194/hess-2024-61"
 
-      - title: "sensitivity of water reallocation performance assessments to water use data"
+      - title: >
+          <img src="/assets/img/wre.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          sensitivity of water reallocation performance assessments to water use data
         authors:
           - sánchez-daniel, á. et al.
         publisher: water resources and economics
         releaseDate: 2024-01-02
         url: "https://doi.org/10.1016/j.wre.2024.100252"
 
-      - title: "masters thesis: The effects of technological change on labor markets: College wage premium in Europe"
+      - title: >
+          <img src="/assets/img/tfm.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          masters thesis: The effects of technological change on labor markets: College wage premium in Europe"
         authors:
           - sánchez-daniel, á.
         publisher: dipòsit digital ub
@@ -121,10 +127,6 @@ cv:
         url: "https://gredos.usal.es/handle/10366/145274"
 
     Presentations:
-      - title: "the intra-household effects of inheritances on time allocation by gender"
-        date: 2025-12-09
-        event: seminar, dept. foundations of economic analysis
-        location: university of valladolid, segovia, spain
 
       - title: "the intra-household effects of inheritances on time allocation by gender"
         date: 2026-07-11
@@ -141,6 +143,11 @@ cv:
         event: seminar, dept. economics and economic history
         location: university of salamanca, salamanca, spain
 
+      - title: "the intra-household effects of inheritances on time allocation by gender"
+        date: 2025-12-09
+        event: seminar, dept. foundations of economic analysis
+        location: university of valladolid, segovia, spain
+
       - title: "the impact of covid-19 lockdown on mental health in the elderly"
         date: 2024-06-07
         event: xxvi applied economics meeting (alde)
@@ -155,12 +162,12 @@ cv:
       - name: advanced
         level:
         icon: fa-solid fa-code
-        keywords: "stata, r, latex, ms office, arcgis"
+        keywords: "stata, r, latex, github, vscode"
 
       - name: basic
         level:
         icon: fa-solid fa-laptop
-        keywords: "matlab, spss, mathematica, eviews, python, gams"
+        keywords: "matlab, spss, mathematica, eviews, python, gams, arcgis"
 
     Languages:
       - name: spanish
@@ -173,7 +180,7 @@ cv:
     Interests:
       - name: research areas
         icon: fa-solid fa-magnifying-glass
-        keywords: "ageing, labour, policy evaluation"
+        keywords: "ageing, labour, well-being, policy evaluation"
 
       - name: methodologies
         icon: fa-solid fa-chart-line
