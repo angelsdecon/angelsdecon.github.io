@@ -112,8 +112,8 @@ cv:
         url: "https://diposit.ub.edu/items/d19f11df-7074-4410-926c-c6ad9a532f7e"
 
       - title: >
-          bachelors thesis: economía de la inteligencia artificial: distribución territorial y dinamismo empresarial en españa<br><br>
-          <img src="/assets/img/tfg.PNG" class="img-fluid rounded z-depth-1" style="max-width: 200px;">
+          <img src="/assets/img/tfg.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          bachelors thesis: economía de la inteligencia artificial: distribución territorial y dinamismo empresarial en españa
         authors:
           - sánchez-daniel, á.
         publisher: gredos usal
