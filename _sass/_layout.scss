@@ -58,7 +58,8 @@ body {
 /* 3. CONTACTO: ENLACES DE TEXTO LIMPIOS */
 .social .contact-icons {
   text-align: center;
-  font-size: 0.15rem;
+  /* Reduce las redes sociales en la página principal */
+  font-size: 0.6rem;
 }
 
 .social .contact-icons .social-link a {
@@ -88,6 +89,22 @@ body {
   background: transparent !important;
   border-color: var(--global-divider-color) !important;
   text-align: center !important;
+}
+
+/* Separator between Presentations and News in CV */
+.cv-separator {
+  height: 1px;
+  background-color: var(--global-divider-color);
+  width: 100%;
+  max-width: 900px;
+  margin: 1.25rem auto;
+  opacity: 0.8;
+}
+
+/* Space before theme toggle (separate from language links) */
+.navbar-nav .toggle-container {
+  margin-left: 0.8rem;
+  padding-left: 0.6rem;
 }
 
 .cv .card-title,
@@ -169,6 +186,8 @@ header.post-header .post-description {
   text-align: center !important;
   width: 100% !important;
   margin: 2rem 0 1.5rem 0 !important;
+  /* ensure the news title sits below floated profile image */
+  clear: both;
 }
 
 .news {

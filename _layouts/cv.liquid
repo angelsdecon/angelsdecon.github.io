@@ -186,6 +186,7 @@ layout: default
               {% elsif section_title == 'Presentations' %}
                 {% assign entries = section_entries %}
                 {% include cv/presentations.liquid %}
+                <div class="cv-separator" aria-hidden="true" role="presentation"></div>
               {% elsif section_title == 'Skills' %}
                 {% assign entries = section_entries %}
                 {% include cv/skills.liquid %}
