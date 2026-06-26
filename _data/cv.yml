@@ -77,6 +77,12 @@ cv:
           - "project: irene - integrated socioeconomic and environmental modelling using remote sensing data for the management of unauthorized water abstractions."
 
     Publications:
+      - title: "work in progress: the intra-household effects of inheritances on time allocation by gender"
+        authors:
+          - sánchez-daniel, á. and malo, m.á.
+        publisher: working paper (planned submission at review of economics of the household)
+        releaseDate: 2025-10-02
+      
       - title: >
           <img src="/assets/img/lewp.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
           work in progress: the impact of covid-19 lockdown on mental health in the elderly: a nonlinear relationship
@@ -85,12 +91,6 @@ cv:
         publisher: working paper (submitted at the european journal of health economics)
         releaseDate: 2025-10-01
         url: https://aeet.eu/wp-content/uploads/2026/02/LEWP_0013.pdf
-
-      - title: "work in progress: the intra-household effects of inheritances on time allocation by gender"
-        authors:
-          - sánchez-daniel, á. and malo, m.á.
-        publisher: working paper (planned submission at review of economics of the household)
-        releaseDate: 2025-10-02
 
       - title: >
           <img src="/assets/img/hess.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
