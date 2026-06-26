@@ -15,7 +15,7 @@ profile:
     <span style="font-size: 0.85rem;">salamanca, spain 37007</span><br>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -39,4 +39,14 @@ hi guys! i'm ángel!👋
 
 👨‍🏫 additionally, i teach a couple of courses to economics undergraduates and, so far, i'm loving it. students really push me to stay updated on lots of topics 📊.
 
+</div>
+
+<div style="text-align: center; margin-top: 3rem; font-size: 1.1rem; color: var(--global-text-color);">
+  <a href="mailto:angelsd1998@usal.es" style="color: inherit; text-decoration: none;">email</a> · 
+  <a href="https://scholar.google.com/citations?user=5zZSm3oAAAAJ" target="_blank" style="color: inherit; text-decoration: none;">gscholar</a> · 
+  <a href="https://orcid.org/0000-0002-3425-4434" target="_blank" style="color: inherit; text-decoration: none;">orcid</a> · 
+  <a href="https://x.com/Angel_SnchzDnl" target="_blank" style="color: inherit; text-decoration: none;">twitter</a> · 
+  <a href="https://www.linkedin.com/in/angelsanchezdaniel" target="_blank" style="color: inherit; text-decoration: none;">linkedin</a> · 
+  <a href="https://github.com/angelsdecon" target="_blank" style="color: inherit; text-decoration: none;">github</a> · 
+  <a href="https://litoangel.substack.com" target="_blank" style="color: inherit; text-decoration: none;">substack</a>
 </div>
