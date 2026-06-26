@@ -53,9 +53,8 @@ cv:
         end_date: 2020-06
         score: "8.01/10"
         highlights:
-          - "main courses: macroeconomics, econometrics, labour economics"
-          - "exchange program in university of belgrano, buenos aires, argentina (2019)."
-
+         - "main courses: macroeconomics, econometrics, labour economics"
+         - "<small>exchange program: university of belgrano, buenos aires, argentina (2019) - fun fact: javier milei was my proffesor wtf -</small>"
     experience:
       - company: university of salamanca
         position: predoctoral researcher
@@ -83,6 +82,7 @@ cv:
           - sánchez-daniel, á. and malo, m.á.
         publisher: working paper (submitted at the european journal of health economics)
         releaseDate: 2025-10-01
+        url: https://aeet.eu/wp-content/uploads/2026/02/LEWP_0013.pdf
 
       - title: >
           <img src="/assets/img/lewp.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
