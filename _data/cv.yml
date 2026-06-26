@@ -84,14 +84,16 @@ cv:
         publisher: working paper (submitted at the european journal of health economics)
         releaseDate: 2025-10-01
 
-      - title: "work in progress: the intra-household effects of inheritances on time allocation by gender"
+      - title: >
+          <img src="/assets/img/lewp.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          work in progress: the intra-household effects of inheritances on time allocation by gender"
         authors:
           - sánchez-daniel, á. and malo, m.á.
         publisher: working paper (planned submission at review of economics of the household)
         releaseDate: 2025-10-02
 
       - title: >
-          <img src="/assets/img/hess.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          <img src="/assets/img/hess.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
           actionable human-water systems modeling under uncertainty
         authors:
           - gil-garcía, l. et al.
@@ -100,7 +102,7 @@ cv:
         url: "https://doi.org/10.5194/hess-2024-61"
 
       - title: >
-          <img src="/assets/img/wre.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          <img src="/assets/img/wre.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
           sensitivity of water reallocation performance assessments to water use data
         authors:
           - sánchez-daniel, á. et al.
@@ -109,7 +111,7 @@ cv:
         url: "https://doi.org/10.1016/j.wre.2024.100252"
 
       - title: >
-          <img src="/assets/img/tfm.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          <img src="/assets/img/tfm.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
           masters thesis: The effects of technological change on labor markets: College wage premium in Europe"
         authors:
           - sánchez-daniel, á.
@@ -118,7 +120,7 @@ cv:
         url: "https://diposit.ub.edu/items/d19f11df-7074-4410-926c-c6ad9a532f7e"
 
       - title: >
-          <img src="/assets/img/tfg.PNG" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
+          <img src="/assets/img/tfg.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
           bachelors thesis: economía de la inteligencia artificial: distribución territorial y dinamismo empresarial en españa
         authors:
           - sánchez-daniel, á.
