@@ -4,7 +4,7 @@ cv:
   #  email: angelsd1998@usal.es
   #  location: salamanca, spain
   #  image: ""
-  #  summary: "predoctoral researcher in applied microeconomics. my research focuses on ageing, labour, and policy evaluation through causal inference and quasi-experimental methods."
+  #  summary: "predoctoral researcher in applied microeconomics. my research focuses on ageing, labour, and policy evaluation through causal inference and quasi-experimental methods"
 
   social_networks:
     - network: twitter
@@ -54,17 +54,17 @@ cv:
         score: "8.01/10"
         highlights:
          - "main courses: macroeconomics, econometrics, labour economics"
-         - "<small>exchange program: university of belgrano, buenos aires, argentina (2019) - fun fact: javier milei was my proffesor wtf -</small>"
+         - "<small>exchange program: university of belgrano, buenos aires, argentina (2019)</small>"
     Experience:
       - company: university of salamanca
         position: predoctoral researcher
         location: salamanca, spain
         start_date: 2024-10
         end_date: present
-        summary: "department of economics & economic history."
+        summary: "department of economics & economic history"
         highlights:
-          - "project: essays on ageing economics."
-          - "regional funding, supported by the junta de castilla & león."
+          - "project: essays on ageing economics"
+          - "regional funding, supported by the junta de castilla & león"
           - "teaching: macroeconomics i, labour economics"
 
       - company: university of salamanca
@@ -72,9 +72,9 @@ cv:
         location: salamanca, spain
         start_date: 2021-11
         end_date: 2024-08
-        summary: "department of economics & economic history."
+        summary: "department of economics & economic history"
         highlights:
-          - "project: irene - integrated socioeconomic and environmental modelling using remote sensing data for the management of unauthorized water abstractions."
+          - "project: irene - integrated socioeconomic and environmental modelling using remote sensing data for the management of unauthorized water abstractions"
 
     Publications:
       - title: "work in progress: the intra-household effects of inheritances on time allocation by gender"
@@ -112,7 +112,7 @@ cv:
 
       - title: >
           <img src="/assets/img/tfm.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
-          masters thesis: The effects of technological change on labor markets: College wage premium in Europe"
+          masters' thesis: the effects of technological change on labor markets: college wage premium in Europe"
         authors:
           - sánchez-daniel, á.
         publisher: dipòsit digital ub
@@ -121,7 +121,7 @@ cv:
 
       - title: >
           <img src="/assets/img/tfg.jpg" class="img-fluid rounded z-depth-1" style="width: 70px; float: left; margin-right: 15px; margin-bottom: 5px; margin-top: 5px;">
-          bachelors thesis: economía de la inteligencia artificial: distribución territorial y dinamismo empresarial en españa
+          bachelors' thesis: economía de la inteligencia artificial: distribución territorial y dinamismo empresarial en españa
         authors:
           - sánchez-daniel, á.
         publisher: gredos usal
@@ -159,6 +159,8 @@ cv:
         date: 2024-07-12
         event: xvi labour economics meeting (aeet)
         location: university of barcelona, barcelona, spain
+      
+      - title: "and more in my cv..."
 
     Skills:
       - name: advanced

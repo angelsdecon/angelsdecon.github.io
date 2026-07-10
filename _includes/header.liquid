@@ -107,18 +107,13 @@
               </button>
             </li>
           {% endif %}
-          <li class="nav-item lang-switch lang-divider">
-            <a class="nav-link" href="{{ page.url | relative_url }}?lang=es">[esp]</a>
-          </li>
-          <li class="nav-item lang-switch">
-            <a class="nav-link" href="{{ page.url | relative_url }}?lang=en">[eng]</a>
-          </li>
+          
           {% if site.enable_darkmode %}
-            <!-- Toggle theme mode (text-only) -->
+            <!-- Toggle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="change theme">
-                <i class="fa-solid fa-moon nav-link" aria-hidden="true"></i>
-                <span class="sr-only" data-i18n="theme">theme</span>
+              <button id="light-toggle" title="Change theme">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
               </button>
             </li>
           {% endif %}
@@ -131,14 +126,7 @@
       var params = new URLSearchParams(window.location.search);
       var lang = params.get("lang") || localStorage.getItem("site_lang") || "{{ site.lang | default: 'en' }}";
       if (lang) {
-        localStorage.setItem("site_lang", lang);
         document.documentElement.setAttribute("lang", lang);
-      }
-
-      var links = document.querySelectorAll(".lang-switch a");
-      for (var i = 0; i < links.length; i++) {
-        var href = links[i].getAttribute("href") || "";
-        if (href.indexOf("lang=" + lang) !== -1) links[i].classList.add("active-lang");
       }
     })();
   </script>
@@ -172,18 +160,6 @@
       var params = new URLSearchParams(window.location.search);
       var lang = params.get('lang') || localStorage.getItem('site_lang') || document.documentElement.getAttribute('lang') || '{{ site.lang | default: "en" }}';
       if (lang) translateUI(lang);
-
-      // update when language link clicked (links set site_lang in earlier script)
-      document.querySelectorAll('.lang-switch a').forEach(function (a) {
-        a.addEventListener('click', function () {
-          var href = a.getAttribute('href') || '';
-          var m = href.match(/lang=(\w+)/);
-          var newLang = m ? m[1] : null;
-          if (newLang) {
-            setTimeout(function () { translateUI(newLang); }, 10);
-          }
-        });
-      });
     })();
   </script>
   {% if site.enable_progressbar %}

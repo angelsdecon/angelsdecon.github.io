@@ -51,8 +51,7 @@ nav_order: 1
   }
 </style>
 
-what i've published so far and what i'm working on!
-
+<p class="text-center text-muted font-italic">what i’ve published so far and what i’m working on!</p> 
 {% include bib_search.liquid %}
 
 ---
