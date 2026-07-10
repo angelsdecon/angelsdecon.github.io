@@ -189,5 +189,5 @@ pagination:
 
   <p>you can find music i listen to during long coding sessions to not kill myself on <a href="https://open.spotify.com/user/1193392732?si=eH7rJxXdQNKntGCt1lRFsA" target="_blank">spotify</a>. recommendations are more than welcome!</p>
 
-  <p>check mate me!! <a href="https://www.chess.com" target="_blank">chess.com</a></p>
+  <p>check mate me!! <a href="https://www.chess.com/member/litoangel666" target="_blank">chess.com</a></p>
 </div>
